@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Kanit";
+    color: #333333;
+}
+
+body{
+    background-color: #f6f6f6;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 1em 0em;
+    font-weight: 400;
+    font-size: 5.4em;
+    margin-right: 1em;
+}
+
+.Relogio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4em;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5em;
+}
+
